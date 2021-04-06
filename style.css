@@ -10,18 +10,18 @@
   display: block;
   /* border: 2px solid red; */
   position: absolute;
-  left: 60px;
-  top: 20px;
+  left: 1vw;
+  top: 2vh;
 }
 
 .left img {
-  width: 100px;
+  width: 8vw;
 }
 
 .left div {
   font-weight: bolder;
   line-height: 19px;
-  font-size: 12px;
+  font-size: 0.9vw;
   text-align: center;
   font-family: "Dela Gothic One", cursive;
 }
@@ -130,7 +130,7 @@ body {
   background-color: black;
   color: white;
   border-radius: 25px;
-  font-size: 30px;
+  font-size: 20px;
   padding: 20px;
 }
 .form h1 {
