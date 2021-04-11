@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body {
+  background: #eee;
+}
 
 /* logo */
 .left {
@@ -13,7 +16,6 @@
   left: 1vw;
   top: 2vh;
 }
-
 .left img {
   width: 8vw;
 }
@@ -25,9 +27,32 @@
   text-align: center;
   font-family: "Dela Gothic One", cursive;
 }
+ /* background image */
+ .home_background img{
+   width: 100vw;
+   height: 100vh;
+}
 
-body {
-  background: #eee;
+/* navbar */
+.mid{
+    display: block;
+    width: 50vw;
+    margin: 29px auto;
+    position: absolute;
+    top: 0%;
+    right: 16vw;
+}
+.navbar {
+      display: inline-block;
+}
+.navbar li {
+      display: inline-block;
+      font-size: 28px;
+}
+.navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 7px 18px;
 }
 
 /* About */
@@ -76,9 +101,10 @@ body {
 
 /* image */
 .container {
-  width: 100vw;
+  width: 80vw;
   height: 100vh;
   position: relative;
+  margin: auto;
 }
 .container img {
   /* display: inline; */
@@ -89,7 +115,7 @@ body {
   position: absolute;
   top: 0%;
   left: 0%;
-  width: 70vw;
+  width: 56vw;
   height: 30vh;
   /* width: 50vw;
         height: 30vh; */
@@ -98,26 +124,26 @@ body {
   position: absolute;
   top: 0%;
   right: 0%;
-  width: 30vw;
+  width: 24vw;
   height: 70vh;
 }
 .three {
   position: absolute;
-  width: 30vw;
+  width: 24vw;
   height: 70vh;
   bottom: 0%;
   left: 0%;
 }
 .four {
   position: absolute;
-  width: 40vw;
+  width: 32vw;
   height: 40vh;
   top: 30vh;
-  left: 30vw;
+  left: 24vw;
 }
 .five {
   position: absolute;
-  width: 70vw;
+  width: 56vw;
   height: 30vh;
   bottom: 0%;
   right: 0%;

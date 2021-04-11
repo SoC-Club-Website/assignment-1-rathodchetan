@@ -7,21 +7,35 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+ <!-- <link rel="stylesheet" href="href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap""> -->
     <title>Chetan Rathod</title>
   </head>
   <body>
-        <header class="header">
+
+      <header class="header">
       <!-- Left box for logo -->
       <div class="left">
         <img src="./image/logo.jpg" alt="" />
         <div>Chetan Rathod</div>
+      </div>
+      <div class="home_background">
+        <img src="./image/start_back.jpg" alt="">
+      </div>
+      <div class="mid">
+        <ul class="navbar">
+          <li> <a href="#home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#form">Form</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
       </header>
 
       <br><br>
 
 
-    <div class="about">
+    <div class="about" id="About">
       <h1 class="headabout">about me</h1>
       <div class="design"></div>
       <div class="image">
@@ -54,16 +68,16 @@
       </div>
     </div>
 
-    <div class="container">
-      <img src="./image/anime.jpeg" alt="" class="one" />
-      <img src="./image/anime.jpeg" alt="" class="two" />
-      <img src="./image/anime.jpeg" alt="" class="three"/>
-      <video src="./video/anime.mp4" class="four" controls poster="./image/video_poster.jpeg" ></video>
-      <img src="./image/anime.jpeg" alt="" class="five"/>
+    <div class="container" id="gallery">
+      <img src="./image/pica.jpg" alt="" class="one" />
+      <img src="./image/cat.jpg" alt="" class="two" />
+      <img src="./image/wolf.jpg" alt="" class="three"/>
+      <video src="./video/anime.mp4" class="four" controls  ></video>
+      <img src="./image/yak.jpg" alt="" class="five"/>
     </div>
     <br /><br /><br /><br /><br /><br />
 
-    <div class="form">
+    <div class="form" id="form">
       <h1>Join us now:</h1>
       <br /><br />
 
@@ -97,7 +111,7 @@
         </div>
       </form>
       <footer>
-        <div class="contact">
+        <div class="contact" id="contact">
           <ul>
             <li class="start">Contact Me</li>
             <li><a href="https://www.facebook.com/people/Chetan-Rathod/100006671055394" target="_blank" class="fb">Facebook</a></li>
